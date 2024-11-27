@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "webextensions": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", 2], // Enforce 2-space indentation
+    "quotes": ["error", "single"], // Enforce double quotes
+    "semi": ["error", "always"], // Enforce semicolons
+    "no-unused-vars": ["warn"], // Warn on unused variables
+    "no-console": "off", // Allow console statements
+    "eqeqeq": ["error", "always"], // Enforce strict equality
+    "curly": ["error", "all"], // Enforce consistent brace style for all control statements
+    "comma-dangle": ["error", "never"], // Disallow trailing commas
+    "no-trailing-spaces": "error", // Disallow trailing whitespace at the end of lines
+    "space-before-function-paren": ["error", "never"], // Disallow space before function parenthesis
+    "keyword-spacing": ["error", { "before": true, "after": true }] // Enforce consistent spacing before and after keywords
+  }
+}

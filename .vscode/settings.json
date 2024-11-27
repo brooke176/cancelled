@@ -1,0 +1,9 @@
+{
+    "cSpell.words": [
+        "wikirate"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      },
+      "eslint.alwaysShowStatus": true
+}
